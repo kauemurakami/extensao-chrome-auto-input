@@ -2,9 +2,10 @@
     "name" : "Fast Form",
     "version" : "1.0",
     "description" : "Preenche automaticamente campos de formulários com valores correspondentes aos campos específicos como email, nome, dentre outros de forma randômica",
-    //arquivo htm que será aberto ao clickar na extensao
+    
     "browser_action" : {
-        "default_popup" : "index.html"
+        "default_popup" : "index.html",
+        "default_icon" : "icon.png"
     },
     "manifest_version" : 2
 }
